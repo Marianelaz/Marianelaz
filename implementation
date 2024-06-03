@@ -1,0 +1,12 @@
+-(void) print;
+-(int) w;
+-(int) h;
+-(void) setW: (int) vw;
+-(void) setH: (int) vh;
+-(void) setWH: (int) vw :(int) vh;
+-(CPoint *) origin;
+-(void) setOrigin: (CPoint *) pt;
+@end
+CRect.m
+#import "CRect.h"
+@implementation CRect
