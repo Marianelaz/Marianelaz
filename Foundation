@@ -1,0 +1,16 @@
+  x = vx;
+  y = vy;
+}
+-(int) x
+{
+  return x;
+}
+-(int) y
+{
+  return y;
+}
+@end
+CRect.h
+#import <Foundation/Foundation.h>
+#import "CPoint.h"
+@interface CRect : NSObject
