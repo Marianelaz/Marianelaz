@@ -1,0 +1,4 @@
+SharedPtr& operator=(const SharedPtr& rhs)noexcept  // 
+SharedPtr& operator=(SharedPtr&& rhs)noexcept  // 
+T& operator->() const noexcept // 
+T& operator*() const noexcept // 
